@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #1C3643;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+section{
+    background: #97C93E;
+    border-radius: 8px;
+    padding: 20px;
+    color: #ffffff;
+    max-width: 600px;
+    max-height: 800px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    background: #e45d03;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    max-width: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+input::placeholder{
+    color: #ffffff;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn{
+    background: #ffffff;
+    width: 80px;
+    color: #1C3643;
+    /* border-radius: 8px; */
+}
+.btn:active{
+    transform: scale(.9);
+}
+
+#back{
+    z-index: 5;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: #ffffff;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background: #97C93E;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#back:active{
+    transform: scale(.9);
+}
+
+.menu{
+    top: 50%;
+    left: 50%;
+    transition: .5s;
+}
+
+.menu-circle{
+    transform: translate(-50%, 1000%);
+    transition: .5s;
+}
+
+.menu-square{
+    transform: translate(-1000%, -50%);
+    transition: .5s;
+}
+
+.menu-triangle{
+    transform: translate(-50%, -1000%);
+    transition: .5s;
+}
+
+.menu-rectangle{
+    transform: translate(1000%, -50%);
+    transition: .5s;
+}
+
+.circulo{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -1000%);
+    transition: 0.5s;
+}
+
+.cuadrado{
+    top: 50%;
+    left: 50%;
+    transform: translate(1000%, -50%);
+    transition: .5s;
+}
+
+.triangulo{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1000%);
+}
+
+.rectangulo{
+    top: 50%;
+    left: 50%;
+    transform: translate(-1000%, -50%);
+}
+
+.active{
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+    cursor: default;
+}
+
+ol{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    font-size: 1.6em;
+    margin-top: 35px; 
+    cursor: pointer;
+    background: #ffffff;
+    color: #1C3643;
+    border-radius: 6px;
+    padding: 15px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Area de Figuras</title>
+    <link rel="stylesheet" href="CLASE1-area-de-figuras.css">
+</head>
+<body>
+    <span id="back">Regresar</span>
+    <section class="menu" id="menu">
+        <h1>¿Que figura te gustaría calcular su área?</h1>
+        <nav>
+            <ol>
+                <li id="circulo">Círculo</li>
+                <li id="cuadrado">Cuadrado</li>
+                <li id="triangulo">Triángulo</li>
+                <li id="rectangulo">Rectángulo</li>
+            </ol>
+        </nav>
+    </section>
+    <section class="circulo" id="mCirculo">
+        <h2>Círculo</h2>
+        <form action="">
+            <label for="radio">Ingresa el radio de tu círculo</label><br>
+            <input type="number" id="radio" placeholder="ingresa el radio de tu circulo">
+            <input class="btn" type="button" value="calcular" id="radio-btn">
+        </form>
+        <p id="resultado-radio"></p>
+    </section>
+    <section class="cuadrado" id="mCuadrado">
+        <h2>Cuadrado</h2>
+        <form action="">
+            <label for="lado">Ingresa la longuitud de un lado</label><br>
+            <input type="number" id="lado" placeholder="ingresa el lado de tu cuadrado">
+            <input class="btn" type="button" value="calcular" id="cuadardo-btn">
+        </form>
+        <p id="resultado-cuadrado"></p>
+    </section>
+    <section class="triangulo" id="mTriangulo">
+        <h2>Triángulo</h2>
+        <form action="">
+            <label for="baseT">Base</label><br>
+            <input type="number" id="baseT" placeholder="base"><br>
+            <label for="alturaT">Altura</label><br>
+            <input type="number" id="alturaT" placeholder="altura">
+            <input class="btn" type="button" value="calcular" id="triangle-btn">
+        </form>
+        <p id="resultado-triangle"></p>
+    </section>
+    <section class="rectangulo" id="mRectangulo">
+        <h2>Rectángulo</h2>
+        <form action="">
+            <label for="baseR">Base</label><br>
+            <input type="number" id="baseR" placeholder="base"><br>
+            <label for="alturaR">Altura</label><br>
+            <input type="number" id="alturaR" placeholder="altura">
+            <input class="btn" type="button" value="calcular" id="rectangle-btn">
+            <p id="resultado-rectangle"></p>
+        </form>
+    </section>
+    <script type="text/javascript" src="CLASE1-area-de-figuras.js"></script>
+</body>
+</html>
